@@ -1,0 +1,48 @@
+/* This code applies the same background image to multiple different modal window elements.
+   The modal window code expects a single image that contains all backgrounds for all mentioned
+   elements and will handle selecting the right part of the single image itself. */
+
+input[type="button"] {
+    height: 35px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3), 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    font-family: open sans;
+    font-size: 14px;
+    margin-right: 8px;
+    min-width: 68px;
+}
+
+.export {
+    background-image: linear-gradient(100deg, var(--pn-theme_80), var(--pn-theme_30));
+    color: #ffffff;
+}
+
+.close {
+    background-color: #d8d8d8;
+    color: #3f4751;
+}
+
+.tableContent table {
+    width: 100%;
+    font-size: 16px;
+    margin: 40px 36px 0 12px;
+}
+
+table.totalClass td:first-of-type {
+    width: 40%;
+}
+
+.tableContent {
+    height: 350px;
+}
+
+.error {
+    font-size: 16px;
+    text-align: center;
+    color: red;
+    margin: 60px 0 -80px 0;
+}

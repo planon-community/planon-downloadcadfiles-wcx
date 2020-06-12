@@ -1,0 +1,21 @@
+<wicket:head>
+    <wicket:link>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </wicket:link>
+</wicket:head>
+<wicket:panel>
+    <div wicket:id="popupPanel"></div>
+    <div wicket:id="error" class="error"></div>
+    <div class="tableContent">
+        <table class="totalClass">
+            <tr>
+                <td wicket:id="totalLabel"></td>
+                <td wicket:id="total"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="baseButtonPanel">
+        <input class="export" wicket:id="Export" type="button" value="Export Files" />
+        <input class="cancel" wicket:id="Cancel" type="button" value="Cancel" />
+    </div>
+</wicket:panel>
